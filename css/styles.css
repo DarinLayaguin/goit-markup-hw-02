@@ -1,0 +1,53 @@
+:root {
+  --iris: hsl(235, 75%, 60%);  
+  --navyblue:#2E2F42;
+  --white: #FFF; 
+  --cloud: #F4F4FD;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+}
+
+.logo span {
+  color: var(--iris);
+}
+
+.Hero-Section {
+  background-color: #2E2F42;
+}
+
+.button {
+  color: var(--WHITE, #FFF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+}
+
+.no-bullet {
+  list-style-type: none;
+}
+
+.no-bullet a {
+  user-select: none;
+}
+
+.footer-background {
+  background-color: #2E2F42;
+}
+ .footer-background .logo {
+  color: var(--cloud)
+ }
+
+ .footer-background p{
+  color: var(--cloud) ;
+ }
