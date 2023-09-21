@@ -7,6 +7,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height:24px;
+  letter-spacing: 0.32px;
 }
 
 .logo {
@@ -24,21 +29,16 @@ body {
 
 .button {
   color: var(--WHITE, #FFF);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  text-align: center; 
 }
 
 .no-bullet {
   list-style-type: none;
+  padding: 0;
 }
 
-.no-bullet a {
-  user-select: none;
+.center {
+  text-align: center;
 }
 
 .footer-background {
