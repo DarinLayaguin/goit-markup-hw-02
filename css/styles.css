@@ -14,9 +14,33 @@ body {
   letter-spacing: 0.32px;
 }
 
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-link {
+ color: var(--navyblue);
+ font-size: 16px;
+ font-weight: 500;
+ letter-spacing: 0.32px;
+}
+
+.header-link:hover {
+  color: var(--iris);
+}
+
 .logo {
   text-decoration: none;
   color: var(--NAVY-BLUE);
+}
+
+.logo:hover {
+  color: var(--iris);
 }
 
 .logo span {
@@ -30,11 +54,6 @@ body {
 .button {
   color: var(--WHITE, #FFF);
   text-align: center; 
-}
-
-.no-bullet {
-  list-style-type: none;
-  padding: 0;
 }
 
 .center {
