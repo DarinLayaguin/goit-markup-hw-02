@@ -63,8 +63,9 @@ body {
 .footer-background {
   background-color: #2E2F42;
 }
- .footer-background .logo {
+.footer-background .logo {
   color: var(--cloud)
+  
  }
 
  .footer-background p{
